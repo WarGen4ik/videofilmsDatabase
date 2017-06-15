@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController$1.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController$2.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Controllers/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Interfaces/impls/DataBaseAddressBook.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Interfaces/impls/DataBaseAddressBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Objects/VideoFilm.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Objects/VideoFilm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Start/Main.class" afterPath="$PROJECT_DIR$/out/production/database/sample/Start/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.iml" afterPath="$PROJECT_DIR$/database.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Bundles/Locale_en.properties" afterPath="$PROJECT_DIR$/out/production/database/sample/Bundles/Locale_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Bundles/Locale_ru.properties" afterPath="$PROJECT_DIR$/out/production/database/sample/Bundles/Locale_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/database/sample/Start/main.fxml" afterPath="$PROJECT_DIR$/out/production/database/sample/Start/main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Bundles/Locale_en.properties" afterPath="$PROJECT_DIR$/src/sample/Bundles/Locale_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Bundles/Locale_ru.properties" afterPath="$PROJECT_DIR$/src/sample/Bundles/Locale_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controllers/MainController.java" afterPath="$PROJECT_DIR$/src/sample/Controllers/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java" afterPath="$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Objects/VideoFilm.java" afterPath="$PROJECT_DIR$/src/sample/Objects/VideoFilm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Start/Main.java" afterPath="$PROJECT_DIR$/src/sample/Start/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Start/main.fxml" afterPath="$PROJECT_DIR$/src/sample/Start/main.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,10 +60,6 @@
       </PATH_ELEMENT>
       <PATH_ELEMENT>
         <option name="myItemId" value="mysql@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="videofilms" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -99,13 +115,19 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Start/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1362#1363#0" expanded="false" />
-                <element signature="e#1390#1391#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/resources/mainStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,24 +135,34 @@
       <file leaf-file-name="DataBaseAddressBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+            <state relative-caret-position="402">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
-                <marker date="1494408625777" expanded="true" signature="399:410" ph=" INSERT statement" />
-                <marker date="1494408625777" expanded="true" signature="399:485" ph=" INSERT statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="399:486" ph=" INSERT statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="399:506" ph=" INSERT statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="410:479" ph=" INSERT statement (DBUSER)" />
-                <marker date="1494408625777" expanded="true" signature="1614:1702" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="1614:1705" ph="UPDATE datab... " />
-                <marker date="1494408625777" expanded="true" signature="1614:1736" ph="UPDATE datab... " />
-                <marker date="1494408625777" expanded="true" signature="1614:1743" ph="UPDATE datab... " />
-                <marker date="1494408625777" expanded="true" signature="1614:1744" ph="UPDATE datab... " />
-                <marker date="1494408625777" expanded="true" signature="1614:1775" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="1614:1783" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="2720:2765" ph=" DELETE statement (TELEPHONE_BOOK)" />
-                <marker date="1494408625777" expanded="true" signature="4549:4584" ph=" SELECT statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="452:463" ph=" INSERT statement" />
+                <marker date="1495706155911" expanded="true" signature="452:538" ph=" INSERT statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="452:539" ph=" INSERT statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="452:559" ph=" INSERT statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="463:532" ph=" INSERT statement (DBUSER)" />
+                <marker date="1495706155911" expanded="true" signature="1667:1755" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="1667:1758" ph="UPDATE datab... " />
+                <marker date="1495706155911" expanded="true" signature="1667:1789" ph="UPDATE datab... " />
+                <marker date="1495706155911" expanded="true" signature="1667:1796" ph="UPDATE datab... " />
+                <marker date="1495706155911" expanded="true" signature="1667:1797" ph="UPDATE datab... " />
+                <marker date="1495706155911" expanded="true" signature="1667:1828" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="1667:1836" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="2773:2818" ph=" DELETE statement (TELEPHONE_BOOK)" />
+                <marker date="1495706155911" expanded="true" signature="4601:4636" ph=" SELECT statement (TELEPHONE_BOOK)" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/AddressBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,56 +170,54 @@
       <file leaf-file-name="VideoFilm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Objects/VideoFilm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="e#579#580#0" expanded="false" />
-                <element signature="e#614#615#0" expanded="false" />
-                <element signature="e#645#646#0" expanded="false" />
-                <element signature="e#678#679#0" expanded="false" />
-                <element signature="e#710#711#0" expanded="false" />
-                <element signature="e#744#745#0" expanded="false" />
-                <element signature="e#787#788#0" expanded="false" />
-                <element signature="e#825#826#0" expanded="false" />
-                <element signature="e#875#876#0" expanded="false" />
-                <element signature="e#902#903#0" expanded="false" />
-                <element signature="e#952#953#0" expanded="false" />
-                <element signature="e#980#981#0" expanded="false" />
-                <element signature="e#1029#1030#0" expanded="false" />
-                <element signature="e#1056#1057#0" expanded="false" />
-                <element signature="e#1219#1220#0" expanded="false" />
-                <element signature="e#1314#1315#0" expanded="false" />
-                <element signature="e#1354#1355#0" expanded="false" />
-                <element signature="e#1389#1390#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="98">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
+      <file leaf-file-name="ViewUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Objects/ViewUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2659#2660#0" expanded="false" />
-                <element signature="e#2704#2705#0" expanded="false" />
-                <element signature="e#3153#3154#0" expanded="false" />
-                <element signature="e#3199#3200#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Start/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="44" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editWindow.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/editWindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="74" lean-forward="false" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+            <state relative-caret-position="347">
+              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="53" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,13 +226,9 @@
       <file leaf-file-name="EditController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#789#790#0" expanded="false" />
-                <element signature="e#835#836#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -214,6 +240,7 @@
       <list>
         <option value="Properties" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -222,12 +249,24 @@
       <find>resour</find>
       <find>addressBook</find>
       <find>tableColumnGenre</find>
+      <find>buttonPressed</find>
+      <find>toExcel</find>
+      <find>fxmlEdit</find>
+      <find>setupClearButtonField</find>
     </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -246,15 +285,19 @@
         <option value="$PROJECT_DIR$/database.iml" />
         <option value="$PROJECT_DIR$/src/sample/resources/mysql.sql" />
         <option value="[Connection] CONSOLE - Connection" />
-        <option value="$PROJECT_DIR$/src/sample/Start/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Objects/Person.java" />
         <option value="$PROJECT_DIR$/src/sample/Interfaces/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java" />
         <option value="$PROJECT_DIR$/src/sample/Bundles/Locale_en.properties" />
+        <option value="$PROJECT_DIR$/src/sample/Objects/ViewUtil.java" />
         <option value="$PROJECT_DIR$/src/sample/Start/main.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Objects/VideoFilm.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java" />
+        <option value="$PROJECT_DIR$/src/sample/Start/mainStyle.css" />
+        <option value="$PROJECT_DIR$/src/sample/Start/Main.java" />
+        <option value="$PROJECT_DIR$/controlsfx-8.40.12.jar!/org/controlsfx/control/textfield/CustomTextField.class" />
+        <option value="$PROJECT_DIR$/src/sample/resources/mainStyle.css" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/MainController.java" />
       </list>
     </option>
   </component>
@@ -274,6 +317,7 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -293,7 +337,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,6 +346,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -322,177 +376,11 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Start" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editWindow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'Locale'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,28 +395,32 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CFGM" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19590269" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\database" />
+      <recent name="C:\Users\Илья\Desktop\database\src\sample\Bundles" />
+      <recent name="C:\Users\Илья\Desktop\database\src\sample\Controllers" />
+      <recent name="C:\Users\Илья\Desktop\database\src\sample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample.Objects" />
+      <recent name="sample.Controllers.editWindow" />
+      <recent name="sample" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\database\src\sample\resources" />
       <recent name="C:\Users\Илья\Desktop\database\src\sample\Controllers\editWindow" />
       <recent name="C:\Users\Илья\Desktop\database\src\sample\Controllers" />
       <recent name="C:\Users\Илья\Desktop\database\src\sample\Start" />
       <recent name="C:\Users\Илья\Desktop\database\src\sample\fxml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="sample.Controllers.editWindow" />
-      <recent name="sample" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Илья\Desktop\database\src\sample\Bundles" />
-      <recent name="C:\Users\Илья\Desktop\database\src\sample\Controllers" />
-      <recent name="C:\Users\Илья\Desktop\database\src\sample" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -982,11 +874,22 @@
       <workItem from="1494406951494" duration="618000" />
       <workItem from="1494407636075" duration="1277000" />
       <workItem from="1494438919928" duration="13000" />
+      <workItem from="1495702382786" duration="3735000" />
+      <workItem from="1495708089250" duration="458000" />
+      <workItem from="1495789660367" duration="262000" />
+      <workItem from="1495795605866" duration="818000" />
+      <workItem from="1495799577385" duration="1431000" />
+      <workItem from="1495873490875" duration="1594000" />
+      <workItem from="1496057915871" duration="634000" />
+      <workItem from="1496061990022" duration="1293000" />
+      <workItem from="1496084862799" duration="610000" />
+      <workItem from="1497534930036" duration="359000" />
+      <workItem from="1497541355704" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11042000" />
+    <option name="totallyTimeSpent" value="23571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,31 +901,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27827764" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3206941" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39895698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1032,7 +935,6 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1054,15 +956,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Start/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,20 +977,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494408625777" expanded="true" signature="399:410" ph=" INSERT statement" />
-            <marker date="1494408625777" expanded="true" signature="399:485" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:486" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:506" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="410:479" ph=" INSERT statement (DBUSER)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1702" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1705" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1736" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1743" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1744" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1775" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1783" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="2720:2765" ph=" DELETE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="4549:4584" ph=" SELECT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:463" ph=" INSERT statement" />
+            <marker date="1495706155911" expanded="true" signature="452:538" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:539" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:559" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="463:532" ph=" INSERT statement (DBUSER)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1755" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1758" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1789" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1796" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1797" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1828" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1836" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="2773:2818" ph=" DELETE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="4601:4636" ph=" SELECT statement (TELEPHONE_BOOK)" />
           </folding>
         </state>
       </provider>
@@ -1094,13 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="159" column="77" lean-forward="false" selection-start-line="159" selection-start-column="77" selection-end-line="159" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,73 +1008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Start/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494408625777" expanded="true" signature="399:410" ph=" INSERT statement" />
-            <marker date="1494408625777" expanded="true" signature="399:485" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:486" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:506" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="410:479" ph=" INSERT statement (DBUSER)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1702" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1705" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1736" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1743" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1744" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1775" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1783" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="2720:2765" ph=" DELETE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="4549:4584" ph=" SELECT statement (TELEPHONE_BOOK)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Objects/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="159" column="77" lean-forward="false" selection-start-line="159" selection-start-column="77" selection-end-line="159" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,11 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,20 +1025,20 @@
         <state relative-caret-position="2108">
           <caret line="124" column="39" lean-forward="false" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
           <folding>
-            <marker date="1494408625777" expanded="true" signature="399:410" ph=" INSERT statement" />
-            <marker date="1494408625777" expanded="true" signature="399:485" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:486" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:506" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="410:479" ph=" INSERT statement (DBUSER)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1702" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1705" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1736" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1743" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1744" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1775" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1783" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="2720:2765" ph=" DELETE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="4549:4584" ph=" SELECT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:463" ph=" INSERT statement" />
+            <marker date="1495706155911" expanded="true" signature="452:538" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:539" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:559" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="463:532" ph=" INSERT statement (DBUSER)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1755" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1758" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1789" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1796" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1797" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1828" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1836" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="2773:2818" ph=" DELETE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="4601:4636" ph=" SELECT statement (TELEPHONE_BOOK)" />
           </folding>
         </state>
       </provider>
@@ -1218,13 +1048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,11 +1056,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,11 +1064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,27 +1089,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Start/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="109" lean-forward="false" selection-start-line="36" selection-start-column="109" selection-end-line="36" selection-end-column="109" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,11 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,36 +1119,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Start/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1360,24 +1154,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Start/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
@@ -1409,21 +1198,17 @@
     <entry file="db://[Connection] CONSOLE - Connection" />
     <entry file="file://$PROJECT_DIR$/src/sample/Objects/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/impls/CollectionAddressBook.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/AddressBook.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d8f17e3-4ad8-474d-87e8-d5e96405ae2c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/editWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_112/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="1122">
+          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1437,128 +1222,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d8f17e3-4ad8-474d-87e8-d5e96405ae2c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/sample/images/img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4b535c41/2d8f17e3-4ad8-474d-87e8-d5e96405ae2c/videofilms.videofilms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/controlsfx-8.40.12.jar!/org/controlsfx/control/textfield/CustomTextField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/resources/mainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Start/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="44" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/editWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="74" lean-forward="false" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+        <state relative-caret-position="347">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Start/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="53" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Objects/VideoFilm.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Objects/ViewUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-            <element signature="e#902#903#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1219#1220#0" expanded="false" />
-            <element signature="e#1314#1315#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-            <element signature="e#1389#1390#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2659#2660#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#3153#3154#0" expanded="false" />
-            <element signature="e#3199#3200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Start/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1390#1391#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/editWindow/EditController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_112/src.zip!/java/sql/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Interfaces/impls/DataBaseAddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        <state relative-caret-position="402">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <marker date="1494408625777" expanded="true" signature="399:410" ph=" INSERT statement" />
-            <marker date="1494408625777" expanded="true" signature="399:485" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:486" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="399:506" ph=" INSERT statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="410:479" ph=" INSERT statement (DBUSER)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1702" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1705" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1736" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1743" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1744" ph="UPDATE datab... " />
-            <marker date="1494408625777" expanded="true" signature="1614:1775" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="1614:1783" ph=" UPDATE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="2720:2765" ph=" DELETE statement (TELEPHONE_BOOK)" />
-            <marker date="1494408625777" expanded="true" signature="4549:4584" ph=" SELECT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:463" ph=" INSERT statement" />
+            <marker date="1495706155911" expanded="true" signature="452:538" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:539" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="452:559" ph=" INSERT statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="463:532" ph=" INSERT statement (DBUSER)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1755" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1758" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1789" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1796" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1797" ph="UPDATE datab... " />
+            <marker date="1495706155911" expanded="true" signature="1667:1828" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="1667:1836" ph=" UPDATE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="2773:2818" ph=" DELETE statement (TELEPHONE_BOOK)" />
+            <marker date="1495706155911" expanded="true" signature="4601:4636" ph=" SELECT statement (TELEPHONE_BOOK)" />
           </folding>
         </state>
       </provider>
@@ -1628,7 +1412,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>controlsfx-8.40.12</last-edited>
+          <last-edited>poi-3.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

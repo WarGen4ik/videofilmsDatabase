@@ -2,6 +2,8 @@ package sample.Objects;
 
 import javafx.beans.property.SimpleStringProperty;
 
+import java.io.IOException;
+
 /**
  * Created by Admin on 05.04.2017.
  */
@@ -55,5 +57,14 @@ public class VideoFilm {
 
     public void setYear(String year) {
         this.year.set(year);
+    }
+    public Object getNextValue(int i) throws IOException {
+        switch (i){
+            case 0: return ID;
+            case 1: return name.get();
+            case 2: return genre.get();
+            case 3: return year.get();
+        }
+        throw new IOException("Wrong value int \"getNextValue\" method");
     }
 }

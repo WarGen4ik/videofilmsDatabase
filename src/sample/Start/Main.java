@@ -34,6 +34,7 @@ public class Main extends Application {
             primaryStage.getIcons().add(new Image("sample/images/img.png"));
 
             primaryStage.setScene(new Scene(root));
+            primaryStage.getScene().getStylesheets().add("mainStyle.css");
             primaryStage.show();
         }
         catch (IOException e){

@@ -18,5 +18,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="controlsfx-8.40.12" level="project" />
+    <orderEntry type="library" name="poi-3.16" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.40-bin" level="project" />
   </component>
 </module>

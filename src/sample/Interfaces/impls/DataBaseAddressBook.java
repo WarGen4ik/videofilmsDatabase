@@ -1,5 +1,6 @@
 package sample.Interfaces.impls;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import sample.Interfaces.AddressBook;
@@ -25,9 +26,9 @@ public class DataBaseAddressBook implements AddressBook {
 
         // выполнить SQL запрос
         statement.executeUpdate(insertTableSQL);
-
         videoFilm.setID(++MAX_ID);
         backupList.add(videoFilm); list.add(videoFilm);
+
     } catch (SQLException e) {
         System.out.println(e.getMessage());
         System.out.println("Не удалось добавить поле");
@@ -128,7 +129,7 @@ public class DataBaseAddressBook implements AddressBook {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
     private static final String URL = "jdbc:mysql://localhost:3306/mysql?useSSL=false";
-    private static int MAX_ID = 0;
+    public static int MAX_ID = 0;
     private static Connection connection = null;
     ObservableList<VideoFilm> list = FXCollections.observableArrayList();
     ObservableList<VideoFilm> backupList = FXCollections.observableArrayList();
@@ -160,7 +161,8 @@ public class DataBaseAddressBook implements AddressBook {
                         rs.getString("Name"),
                         rs.getString("Genre"),
                         Integer.toString(rs.getInt("Year")));
-                MAX_ID++;
+                if (MAX_ID < rs.getInt("id"))
+                    MAX_ID = rs.getInt("id");
 
                 list.add(videoFilm);
                 backupList.add(videoFilm);

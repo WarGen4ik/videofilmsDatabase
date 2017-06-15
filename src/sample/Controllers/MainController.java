@@ -2,6 +2,7 @@ package sample.Controllers;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.collections.ListChangeListener;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -12,14 +13,21 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.ss.usermodel.Cell;
 import org.controlsfx.control.textfield.CustomTextField;
 import org.controlsfx.control.textfield.TextFields;
 import sample.Controllers.editWindow.EditController;
 import sample.Interfaces.impls.DataBaseAddressBook;
 import sample.Objects.VideoFilm;
+import sample.Objects.ViewUtil;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URL;
@@ -64,7 +72,7 @@ public class MainController implements Initializable {
 
         switch (btn.getId()){
             case "addBtn":{
-                editController.setVideoFilm(new VideoFilm(0,"", "", ""));
+                editController.setVideoFilm(new VideoFilm(DataBaseAddressBook.MAX_ID,"", "", ""));
                 showDialog();
             }break;
             case "changeBtn":{
@@ -75,6 +83,9 @@ public class MainController implements Initializable {
             }break;
             case "deleteBtn":{
                 dataBaseAddressBook.delete(videoFilm);
+            }break;
+            case "toExcelBtn":{
+                excelBtnPressed();
             }break;
         }
     }
@@ -113,6 +124,7 @@ public class MainController implements Initializable {
             editDialogStage.setMinHeight(120);
             editDialogStage.setResizable(false);
             editDialogStage.setScene(new Scene(fxmlEdit));
+            editDialogStage.getScene().getStylesheets().add("mainStyle.css");
             editDialogStage.initModality(Modality.WINDOW_MODAL);
             editDialogStage.initOwner(parentStage);
             editController.setAddressBook(dataBaseAddressBook);
@@ -157,6 +169,66 @@ public class MainController implements Initializable {
         }
         catch (Exception e){
             e.printStackTrace();
+        }
+    }
+
+    private void excelBtnPressed(){
+        if (dataBaseAddressBook.getList().size() == 0){
+            ViewUtil.alert(new Alert(Alert.AlertType.ERROR),
+                    "Ошибка",
+                    null,
+                    "Вы не добавили ни одной записи в бд!",
+                    parentStage.getScene(),
+                    new ButtonType("ОК", ButtonBar.ButtonData.CANCEL_CLOSE)).showAndWait();
+            return;
+        }
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        File selectedDirectory =
+                directoryChooser.showDialog(parentStage);
+
+        if(selectedDirectory == null){
+            ViewUtil.alert(new Alert(Alert.AlertType.INFORMATION),
+                    "Can not find directory",
+                    null,
+                    "Please choose directory path",
+                    parentStage.getScene(),
+                    new ButtonType("ОК", ButtonBar.ButtonData.CANCEL_CLOSE)).showAndWait();
+            return;
+        }else{
+            try {
+                Workbook wb = new HSSFWorkbook();
+                Sheet sheet = wb.createSheet("Видеофильмы");
+
+                ObservableList<VideoFilm> list =  dataBaseAddressBook.getList();
+
+                Row rowNames = sheet.createRow(0);
+                Cell cellNames = rowNames.createCell(0);
+                cellNames.setCellValue("ID");
+                cellNames = rowNames.createCell(1);
+                cellNames.setCellValue("Название");
+                cellNames = rowNames.createCell(2);
+                cellNames.setCellValue("Жанр");
+                cellNames = rowNames.createCell(3);
+                cellNames.setCellValue("Год выпуска");
+
+                for (int i = 0; i < list.size(); i++){
+                    Row row = sheet.createRow(i+1);
+                    for (int j = 0; j < 4; j++) {
+                        org.apache.poi.ss.usermodel.Cell cell = row.createCell(j);
+                        switch (j) {
+                            case 0: cell.setCellValue((int)list.get(i).getNextValue(j)); break;
+                            case 1:case 2:case 3: cell.setCellValue((String)list.get(i).getNextValue(j)); break;
+                        }
+                    }
+
+
+                }
+                FileOutputStream fos = new FileOutputStream(selectedDirectory.getAbsolutePath() + "\\videofilms.xls");
+                wb.write(fos);
+                fos.close();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
         }
     }
 }
